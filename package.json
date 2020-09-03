@@ -1,0 +1,20 @@
+{
+  "name": "ns-departures",
+  "version": "1.0.0",
+  "description": "a simple cli app to display train departures",
+  "main": "index.js",
+  "scripts": {
+    "test": "departures"
+  },
+  "author": "Yael Bakker",
+  "license": "Unlicense",
+  "bin": {
+    "departures": "./cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0",
+    "ns-api": "^4.0.1"
+  },
+  "repository": "github:YVbakker/ns-departures"
+}
